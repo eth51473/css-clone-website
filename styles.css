@@ -1,0 +1,137 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+body{
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Montserrat -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: .5px;
+}
+#home{
+  height: 100vh;
+  width:100vw;
+  background-image: url('https://github.com/StartBootstrap/startbootstrap-agency/blob/master/src/assets/img/header-bg.jpg?raw=true');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -10px -120px;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(49, 49, 49);
+  height: 65px;
+}
+#logo{
+  height: 100%;
+  width: 200px;
+  margin-left: 115px;
+  
+}
+#logo img{
+  justify-self: center;
+  align-self: center;
+  margin-top: 15px;
+  
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-self: flex-end;
+  margin-right: 85px;
+  margin-left: auto;
+}
+nav ul li{
+  margin: 20px 40px 0px 0px;
+  font-size: 1.3rem;
+}
+nav ul li a{
+  text-decoration: none;
+  color: rgb(230, 230, 230);
+  
+}
+nav ul li a:hover{
+  color: #ffc800;
+}
+#main-text{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  color:white;
+}
+#main-text h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2.25rem;
+  margin-bottom: 25px;
+}
+#main-text h1{
+  font-size: 4.5rem;
+  margin-bottom: 45px;
+}
+button{
+  font-size: 1.5rem;
+  width: 235px;
+  height: 70px;
+  margin: 0px  auto;
+  border-radius: 5px;
+  color: white;
+  background-color: #ffc800;
+  border-color:#ffc800 ;
+}
+button:hover{
+  background-color: #dfb008;
+  cursor: pointer;
+}
+#services{
+  height: 100vh;
+}
+#services-header{
+  margin: 90px auto 20px auto;
+  height: 100px;
+  width: 600px;
+  text-align: center;
+}
+#services-header h2{
+  font-size: 44px;
+  margin-bottom: 10px;
+}
+#services-header h4{
+  color: rgb(151, 151, 151);
+}
+#services-info{
+  display: flex;
+  height: 323px;
+  width: 100%;
+  margin: auto;
+  margin-top: 5px;
+  justify-content: center;
+}
+.service-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 300px;
+  text-align: center;
+  margin: 0px 20px;
+}
+.service-item h3{
+  font-size: 26px;
+  margin: 15px 0px;
+}
+.circle{
+  background-color: #ffc800;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
